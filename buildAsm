@@ -1,0 +1,4 @@
+rm -rf build
+mkdir build
+nasm -fmacho64 src/macho64.s -o build/macho64.o
+ld -static -o macho64 -e _main build/macho64.o
