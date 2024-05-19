@@ -3,4 +3,4 @@ mkdir build
 cd src
 nasm -fmacho64 main.s -o ../build/main.o
 nasm -fmacho64 ./lib/libmacho.s -o ../build/libmacho.o
-ld -static -o ../macho64 -e _main ../build/main.o ../build/libmacho.o -framework Carbon
+ld -static -o ../macho64 -e _main ../build/main.o ../build/libmacho.o
