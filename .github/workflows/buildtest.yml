@@ -29,6 +29,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run build test
         run: |
-          sudo apt-get install nasm ld
+          sudo apt-get install nasm binutils
           ./buildAsm
         
