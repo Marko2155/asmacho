@@ -30,6 +30,6 @@ jobs:
       - name: Run build test
         run: |
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-          /opt/homebrew/bin/brew install nasm ld
+          /opt/homebrew/bin/brew install nasm binutils
           ./buildAsm
         
