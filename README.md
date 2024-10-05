@@ -8,5 +8,5 @@ ld
 nasm
 ```
 
-Run ```./buildAsm``` in the asmacho root directory.
+Run ```./buildAsm``` in the asmacho root directory. (you might have to do `chmod +x ./buildAsm` before running it)
 Then the macho64 executable should be in the root directory.
